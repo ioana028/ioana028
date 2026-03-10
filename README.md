@@ -15,8 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Hey there 👋
-
 I'm a developer currently learning and building projects with **JavaScript and React**.
 
 Right now I'm focused on improving my development skills by building small projects, experimenting with different technologies, and understanding how applications work from both the frontend and backend side.
