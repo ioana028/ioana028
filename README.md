@@ -48,6 +48,8 @@ This profile is where I'll be sharing projects I'm building while learning — f
 
 * **Pacman (Canvas)**
   A simplified Pacman-style game built with JavaScript and the Canvas API.
+• **Bunny Platformer (Canvas)**
+  A dynamic platformer where you control a bunny, collect carrots, dodge flying arrows, and chase high scores in a fast-paced canvas-based environment.
 
 * **Learning App for English**
   A gamified application for learning English that adapts the learning content based on user performance using a simple machine learning model.
