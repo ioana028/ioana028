@@ -34,27 +34,33 @@ This profile is where I'll be sharing projects I'm building while learning — f
 * MySQL / Oracle Database
 * Python (basic level)
 * Git & GitHub
-* Vite
+* Docker
 
 ---
 
 ## 🎮 Projects
 
-* **Mini Games Collection**
-  Small browser games built while learning React and Canvas.
+* **Encrypting/Decrypting BMP picture** (currently working)
 
-* **Memory Game**
-  A React-based card matching game with dynamic grid sizes.
+This project focuses on implementing symmetric AES encryption and decryption on large BMP images within a distributed microservices architecture. The application allows a user to upload an image and encryption parameters through a web-based interface, after which the data is processed through multiple Docker containers. Communication between services is handled using a message broker (RabbitMQ or JMS), while the core processing logic is executed in parallel using OpenMPI and OpenMP to efficiently handle large image data.
 
-* **Pacman (Canvas)**
-  A simplified Pacman-style game built with JavaScript and the Canvas API.
-• **Bunny Platformer (Canvas)**
-  A dynamic platformer where you control a bunny, collect carrots, dodge flying arrows, and chase high scores in a fast-paced canvas-based environment.
+The system integrates multiple technologies, including JavaScript (Node.js and React) for the frontend and API layer, Java for messaging and backend services, and C/C++ for high-performance parallel processing. Processed images are stored in a MySQL database as binary data, and optional monitoring can be implemented using MongoDB. 
+
+The main objective of this project is to combine cryptography, distributed systems, and parallel computing concepts into a scalable and practical solution.
+
+
+* **Technologies scraper**
+  Web app that detects tehnologies used in other sites.
 
 * **Learning App for English**
   A gamified application for learning English that adapts the learning content based on user performance using a simple machine learning model.
   All user data and application content are stored in a locally hosted Oracle database.
 The connection between the user interface and the database is handled through a server-side layer.
+
+* **Mini Games Collection**
+  Small browser games built while learning React and Canvas.
+
+
 
 More projects will be added as I continue learning and building.
 
@@ -63,6 +69,6 @@ More projects will be added as I continue learning and building.
 ## ✨ A Bit About Me
 
 * 💻 Currently improving my frontend and full-stack development skills
-* 🎮 Interested in browser games and interactive applications
+* 🎮 Interested in interactive applications
 
 
